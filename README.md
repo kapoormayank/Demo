@@ -4,7 +4,6 @@ This repository contains Java programs and projects demonstrating key Java conce
 It is designed for beginners and intermediate learners who want to understand Java programming in a practical and hands-on way.
 
 ---
-
 # 📖 About the Project
 
 Java is a versatile, object-oriented programming language widely used in software development.
