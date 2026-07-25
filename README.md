@@ -275,7 +275,7 @@ VS Code
 - Learn how to structure Java projects professionally
 
 ---
-# 👤 Author
+## 👤 Author
 
 # Mayank Kapoor
 
