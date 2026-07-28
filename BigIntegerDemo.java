@@ -7,6 +7,7 @@ public class BigIntegerDemo {
     
     // Main function
     public static void main(String[] args){
+        
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter first number: ");
             BigInteger n=sc.nextBigInteger();

@@ -14,7 +14,6 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 
 # 🚀 Features
 
-
 # ✅ Topics Covered
 - ✅ Core Java Concepts
 - ✅ Object-Oriented Programming (OOP)
@@ -28,6 +27,7 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 - ✅ Mini Java Projects
 - ✅ LeetCode Solutions in Java
 
+---
 
 # 🧱 Object-Oriented Programming (OOP)
 
@@ -43,6 +43,7 @@ This repository covers core Java concepts such as OOP, exception handling, colle
     - ArrayList
     - LinkedList
     - Other List-based operations
+
 
 - 🧵 Multithreading  [![Multithreading](https://img.shields.io/badge/Multithreading-Java-green?style=flat)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
     - Thread creation
@@ -110,7 +111,6 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 
 - 🧠 Recursion
 
-
 - 🔙 Backtracking
 
    - N-Queens Problem  
@@ -128,7 +128,6 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 - ⏱️ Time & Space Complexity (Basics)
 
 ---
-
 
 # 🧪 LeetCode Problems Solution In Java
 
@@ -276,8 +275,7 @@ VS Code
 - Learn how to structure Java projects professionally
 
 ---
-
-# 👤 Author
+## 👤 Author
 
 # Mayank Kapoor
 
