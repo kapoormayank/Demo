@@ -24,6 +24,7 @@ public class Combination_Sum3 {
     }
 
     // Main function to test the algorithm
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int k,n ;

@@ -27,6 +27,7 @@ public class Permutation2 {
     }
 
     // Main function
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements in the permutation: ");

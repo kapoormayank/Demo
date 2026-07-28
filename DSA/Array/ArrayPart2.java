@@ -19,6 +19,7 @@ public class ArrayPart2{
     }
     
     // Main function
+    @SuppressWarnings("resource")
     public static void main(String[] args) {   
         Scanner sc=new Scanner(System.in);
         int q=sc.nextInt();
