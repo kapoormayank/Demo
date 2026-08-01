@@ -3,14 +3,17 @@ public class AccessModifier {
     
     // class in which access modifier or specifier
     public static class Modifiers{
+
         int x=5; // Default Access Modifier
         public String str= "Mayank Roy Kapoor"; // Public Access Modifier
         protected float age=19.5f; // Protected Access Modifier
         private String gender="Male"; // Private Access Modifier
+
         // Setter Function
         public void setGender(String gender){
             this.gender=gender;
         }
+        
         // Getter Function
         public String getGender(){
             return this.gender;
