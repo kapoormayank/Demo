@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+
 public class Permutation {
     // Function to generate Permutation
     public static void generatePermutation(int[] set,List<List<Integer>> result,List<Integer> temp) {
