@@ -2,7 +2,9 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
 public class Combination_Sum3 {
+    
     // Function to find all possible combinations of k numbers that add up to n
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
