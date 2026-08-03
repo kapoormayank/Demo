@@ -23,6 +23,7 @@ public class Solution704 {
     }
     
     // Main function
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter number of terms: ");
