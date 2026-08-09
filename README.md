@@ -82,9 +82,9 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 -🕸️ Graphs (Basic Representation)
 
 - 🔍 Searching Algorithms
-
+  
    - Linear Search/ Sequential Search
-
+     
    -  Binary Search
 
 - 📐 Sorting Algorithms
