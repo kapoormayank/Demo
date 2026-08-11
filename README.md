@@ -36,11 +36,17 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 - 🔐 Encapsulation
   
 - 🧩 Abstraction
+
 - 🧬 Inheritance
+
 - 🔁 Polymorphism
+
 - ➕ Method Overloading
+
 - 🔄 Method Overriding
+
 - ⚠️ Exception Handling
+
 - 📂 Collections & Data Structures
     - ArrayList
     - LinkedList
