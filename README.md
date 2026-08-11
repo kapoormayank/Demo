@@ -32,7 +32,9 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 # 🧱 Object-Oriented Programming (OOP)
 
 - 🧱Classes and Objects
+
 - 🔐 Encapsulation
+  
 - 🧩 Abstraction
 - 🧬 Inheritance
 - 🔁 Polymorphism
