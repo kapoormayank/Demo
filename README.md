@@ -32,18 +32,25 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 # 🧱 Object-Oriented Programming (OOP)
 
 - 🧱Classes and Objects
+
 - 🔐 Encapsulation
+  
 - 🧩 Abstraction
+
 - 🧬 Inheritance
+
 - 🔁 Polymorphism
+
 - ➕ Method Overloading
+
 - 🔄 Method Overriding
+
 - ⚠️ Exception Handling
+
 - 📂 Collections & Data Structures
     - ArrayList
     - LinkedList
     - Other List-based operations
-
 
 - 🧵 Multithreading  [![Multithreading](https://img.shields.io/badge/Multithreading-Java-green?style=flat)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
     - Thread creation
@@ -82,9 +89,9 @@ This repository covers core Java concepts such as OOP, exception handling, colle
 -🕸️ Graphs (Basic Representation)
 
 - 🔍 Searching Algorithms
-
+  
    - Linear Search/ Sequential Search
-
+     
    -  Binary Search
 
 - 📐 Sorting Algorithms
@@ -140,6 +147,7 @@ This repository also contains solutions to various LeetCode problems implemented
 ---
 
 # 📁 Folder Structure
+
 Java programming codes
 -  AbstractClasses/
    - ├── Car.java
