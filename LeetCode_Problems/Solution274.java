@@ -1,4 +1,4 @@
-// Leetcode Problem Number 274
+// Leetcode Problem 274: H-Index
 
 import java.util.Scanner;
 
