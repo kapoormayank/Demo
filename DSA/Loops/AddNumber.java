@@ -1,4 +1,4 @@
-
+// Add Number Algorithm Implementation In Java
 import java.util.Scanner;
 
 public class AddNumber {
@@ -11,6 +11,7 @@ public class AddNumber {
     }
 
     // Main function
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         Solution solution = new Solution();
