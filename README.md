@@ -163,7 +163,7 @@ Java programming codes
    - ├── beyblade.txt
    - ├── Deletefile.java
    - ├── Firstfile.java
-   - ├── pokemon.txtx
+   - ├── pokemon.txt
    - └── Secondfile.java
 -  Inheritance-Polymorprism/
    - ├── Human.java
