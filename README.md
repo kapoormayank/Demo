@@ -53,6 +53,7 @@ This repository covers core Java concepts such as OOP, exception handling, colle
     - Other List-based operations
 
 - 🧵 Multithreading  [![Multithreading](https://img.shields.io/badge/Multithreading-Java-green?style=flat)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
+- 
     - Thread creation
     - Runnable interface
     - Thread synchronization
