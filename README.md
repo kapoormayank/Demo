@@ -53,6 +53,7 @@ This repository covers core Java concepts such as OOP, exception handling, colle
     - Other List-based operations
 
 - 🧵 Multithreading  [![Multithreading](https://img.shields.io/badge/Multithreading-Java-green?style=flat)](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
+- 
     - Thread creation
     - Runnable interface
     - Thread synchronization
@@ -149,6 +150,7 @@ This repository also contains solutions to various LeetCode problems implemented
 # 📁 Folder Structure
 
 Java programming codes
+
 -  AbstractClasses/
    - ├── Car.java
    - ├── Running.java
@@ -162,7 +164,7 @@ Java programming codes
    - ├── beyblade.txt
    - ├── Deletefile.java
    - ├── Firstfile.java
-   - ├── pokemon.txtx
+   - ├── pokemon.txt
    - └── Secondfile.java
 -  Inheritance-Polymorprism/
    - ├── Human.java
