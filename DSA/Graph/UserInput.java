@@ -3,6 +3,11 @@
 import java.util.Scanner;
 
 public class UserInput {
+    // Graph Class
+    public static class Graph {
+        int V; // Number of vertices
+        int[][] adj; // Adjacency matrix
+    }
 
     @SuppressWarnings("unused")
     public static void main(String[] args) {
