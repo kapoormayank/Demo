@@ -7,6 +7,12 @@ public class UserInput {
     public static class Graph {
         int V; // Number of vertices
         int[][] adj; // Adjacency matrix
+
+        // Parameterized constructor
+        public Graph(int v) {
+            this.V = v;
+            adj = new int[v][v];
+        }
     }
 
     @SuppressWarnings("unused")
