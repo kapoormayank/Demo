@@ -1,26 +1,52 @@
-// Graph User Input Algorithm Implementation In Java
+// Graph Algorithms Implementation In Java
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class UserInput {
-    
-    // Graph Class
-    public static class Graph {
-        int V; // Number of vertices
-        int[][] adj; // Adjacency matrix
 
-        // Parameterized constructor
-        public Graph(int v) {
-            this.V = v;
-            adj = new int[v][v];
+    // Graph class to represent a graph using adjacency list
+    public static class Graph {
+        int V;
+        ArrayList<Integer>[] adj;
+        
+        // Parameterized Constructor
+        @SuppressWarnings("unchecked")
+        public Graph(int V) {
+            this.V = V;
+            adj = new ArrayList[V];
+            for (int i = 0; i < V; i++) {
+                adj[i] = new ArrayList<>();
+            }
+        }
+
+        void addEdge(int u, int v) {
+            adj[u].add(v);
+            adj[v].add(u); // For undirected graph
+        }
+
+        void printAdjList() {
+            for(int i=0; i<V; i++) {
+                System.out.print("Vertex: "+i+": ");
+
+                for(int neighbor : adj[i]) {
+                    System.out.print(neighbor+" ");
+                }
+                System.out.println();
+            }
         }
     }
-
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter the number of vertices: ");
-            int vertices = sc.nextInt();
-        }
+        Graph graph = new Graph(5);
+
+        graph.addEdge(0, 1);
+        graph.addEdge(1, 2);
+        graph.addEdge(1, 3);
+        graph.addEdge(2, 3);
+        graph.addEdge(2, 4);
+
+        System.out.println("Graph representation (Adjacency List):");
+        graph.printAdjList();
     }
 }
+
+
