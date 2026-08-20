@@ -3,6 +3,7 @@
 import java.util.Scanner;
 
 public class UserInput {
+    
     // Graph Class
     public static class Graph {
         int V; // Number of vertices
