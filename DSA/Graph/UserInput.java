@@ -6,6 +6,7 @@ public class UserInput {
 
     // Graph class to represent a graph using adjacency list
     public static class Graph {
+        // Data Members
         int V;
         ArrayList<Integer>[] adj;
         
