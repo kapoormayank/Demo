@@ -19,11 +19,13 @@ public class UserInput {
             }
         }
 
+        // Method to add an edge to the graph
         void addEdge(int u, int v) {
             adj[u].add(v);
             adj[v].add(u); // For undirected graph
         }
 
+        // Method to print the adjacency list representation of the graph
         void printAdjList() {
             for(int i=0; i<V; i++) {
                 System.out.print("Vertex: "+i+": ");
@@ -35,6 +37,8 @@ public class UserInput {
             }
         }
     }
+
+    // Main function
     public static void main(String[] args) {
         Graph graph = new Graph(5);
 
