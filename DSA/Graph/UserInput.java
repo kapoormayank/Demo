@@ -6,9 +6,10 @@ public class UserInput {
 
     // Graph class to represent a graph using adjacency list
     public static class Graph {
-        // Data Members
-        int V;
-        ArrayList<Integer>[] adj;
+
+        // Data Members And Public Specifiers
+        public int V;
+        public ArrayList<Integer>[] adj;
         
         // Parameterized Constructor
         @SuppressWarnings("unchecked")
