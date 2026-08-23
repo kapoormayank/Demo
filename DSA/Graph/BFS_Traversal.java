@@ -23,6 +23,7 @@ public class BFS_Traversal {
             for(int i=0; i<V; i++) {
                 adj[i] = new ArrayList<>();
             }
+            
         }
 
         // Add an edge to the graph
