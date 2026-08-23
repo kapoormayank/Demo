@@ -23,7 +23,7 @@ public class BFS_Traversal {
             for(int i=0; i<V; i++) {
                 adj[i] = new ArrayList<>();
             }
-            
+
         }
 
         // Add an edge to the graph
@@ -35,6 +35,7 @@ public class BFS_Traversal {
         // BFS Traversal of the graph
         @SuppressWarnings("SizeReplaceableByIsEmpty")
         void bfs() {
+            
             Queue<Integer> queue = new LinkedList<>();
             boolean[] visited = new boolean[V];
 
