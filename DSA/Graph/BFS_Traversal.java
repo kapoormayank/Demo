@@ -1,4 +1,4 @@
-// Breadth First Search (BFS) Traversal in a Graph
+// Breadth First Search (BFS) Traversal Algorithm Implement in a Java
 
 import java.util.ArrayList;
 import java.util.LinkedList;
