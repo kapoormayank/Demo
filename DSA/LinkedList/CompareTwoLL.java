@@ -60,6 +60,7 @@ public class CompareTwoLL {
         }
     }
 
+    // Main function
     public static void main(String[] args) {
         Node list1 = null;
         Node list2 = null;
