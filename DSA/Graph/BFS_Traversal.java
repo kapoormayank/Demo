@@ -34,7 +34,7 @@ public class BFS_Traversal {
 
         // BFS Traversal of the graph
         @SuppressWarnings("SizeReplaceableByIsEmpty")
-        void bfs() {
+        void bfs() { // O(V+E)
 
             Queue<Integer> queue = new LinkedList<>();
             boolean[] visited = new boolean[V];
