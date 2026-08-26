@@ -31,6 +31,16 @@ public class DFS_Traversal {
         }
 
         // DFS Traversal of the graph
+        void DFS(int start, boolean[] visited) {
+            System.out.print(start + " ");
+            visited[start] = true;
+
+            for(int neighbor : adj[start]) {
+                if(!visited[neighbor]) {
+                    DFS(neighbor, visited);
+                }
+            }
+        }
 
         // Print the adjacency list representation of the graph
         void printAdjList() {
@@ -54,12 +64,13 @@ public class DFS_Traversal {
         graph.addEdge(0, 1);
         graph.addEdge(1, 2);
         graph.addEdge(1, 3);
-        graph.addEdge(2, 3);
-        graph.addEdge(2, 4);
+        graph.addEdge(2, 4); 
 
         System.out.println("Graph representation (Adjacency List):");
         graph.printAdjList();
 
         System.out.print("\nDFS Traversal of the graph: ");
+        boolean[] visited = new boolean[graph.V];
+        graph.DFS(0, visited);
     }
 }
