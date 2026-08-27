@@ -32,6 +32,9 @@ public class DFS_Traversal {
 
         // DFS Traversal of the graph
         void DFS(int start, boolean[] visited) {
+            
+            // O(V + E) Time Complexity
+
             System.out.print(start + " ");
             visited[start] = true;
 
