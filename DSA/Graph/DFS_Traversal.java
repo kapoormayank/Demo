@@ -9,8 +9,8 @@ public class DFS_Traversal {
     public static class Graph {
 
         // Data Members And Public Specifiers
-        public int V;
-        public ArrayList<Integer>[] adj;
+        public int V; // Number of vertices in the graph
+        public ArrayList<Integer>[] adj; // Adjacency list representation of the graph
 
         // Parameterized Constructor
         @SuppressWarnings("unchecked")
