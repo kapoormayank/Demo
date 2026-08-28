@@ -276,7 +276,7 @@ VS Code
 
 - By exploring this repository, you will:
 
-- Understand real-world usage of Java OOP concepts
+- Understand real-world usage of Java OOP concepts.
 
 - Improve Java programming skills
 
