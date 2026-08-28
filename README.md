@@ -282,7 +282,7 @@ VS Code
 
 - Learn exception handling, multithreading, and database connectivity
 
-- Learn how to structure Java projects professionally
+- Learn how to structure Java projects professionally.
 
 ---
 ## 👤 Author
