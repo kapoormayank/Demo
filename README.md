@@ -278,9 +278,9 @@ VS Code
 
 - Understand real-world usage of Java OOP concepts.
 
-- Improve Java programming skills
+- Improve Java programming skills.
 
-- Learn exception handling, multithreading, and database connectivity
+- Learn exception handling, multithreading, and database connectivity.
 
 - Learn how to structure Java projects professionally.
 
