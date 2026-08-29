@@ -276,13 +276,13 @@ VS Code
 
 - By exploring this repository, you will:
 
-- Understand real-world usage of Java OOP concepts
+- Understand real-world usage of Java OOP concepts.
 
-- Improve Java programming skills
+- Improve Java programming skills.
 
-- Learn exception handling, multithreading, and database connectivity
+- Learn exception handling, multithreading, and database connectivity.
 
-- Learn how to structure Java projects professionally
+- Learn how to structure Java projects professionally.
 
 ---
 ## 👤 Author
