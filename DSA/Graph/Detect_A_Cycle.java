@@ -7,6 +7,7 @@ public class Detect_A_Cycle {
     // Graph Class
     @SuppressWarnings("unused")
     public static class Graph {
+        
         // Data Members And Public Specifiers
         public int V; // Number of vertices in the graph
         public ArrayList<Integer>[] adj; // Adjacency list representation of the graph
