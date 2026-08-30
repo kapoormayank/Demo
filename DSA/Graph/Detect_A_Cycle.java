@@ -72,8 +72,7 @@ public class Detect_A_Cycle {
                 }
                 System.out.println();
             }
-        }
-        
+        }        
     }
 
     // Main function
@@ -91,5 +90,10 @@ public class Detect_A_Cycle {
         System.out.println("Graph representation (Adjacency List):");
         graph.printAdjList();
 
+        if (graph.isCyclic()) {
+            System.out.print( "\nGraph contains a cycle.");
+        } else {
+            System.err.println("\nGraph does not contain a cycle.");
+        }
     }
 }
