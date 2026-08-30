@@ -33,6 +33,7 @@ public class Detect_A_Cycle {
             if (recStack[v]) {
                 return true; // Cycle detected
             }
+
             if (visited[v]) {
                 return false; // Already visited
             }
@@ -60,11 +61,13 @@ public class Detect_A_Cycle {
                     return true; // Cycle detected
                 }
             }
+
             return false; // No cycle detected
         }
 
         // Print Graph
         void printAdjList() {
+
             for (int i = 0; i < V; i++) {
                 System.out.print("Vertex " + i + ": ");
                 for (int j : adj[i]) {
@@ -72,6 +75,7 @@ public class Detect_A_Cycle {
                 }
                 System.out.println();
             }
+            
         }        
     }
 
