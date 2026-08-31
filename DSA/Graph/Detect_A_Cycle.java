@@ -33,14 +33,29 @@ public class Detect_A_Cycle {
             visited[v] = true;
 
             for (int neighbor : adj[v]) {
-                if (!visited[neighbor]) {
-                    if (isCyclicUtil(v, par, visited)) {
+                if(!visited[neighbor]) {
+                    if (isCyclicUtil(neighbor, v,visited)) {
                         return true;
                     }
+                } else if(neighbor != par) {
+                    return true;
                 }
             }
 
             return false;
+        }
+
+        // Function to check if the graph contains a cycle
+        public boolean isCyclic() {
+            boolean[] visited = new boolean[V];
+
+            for (int i = 0; i < V; i++) {
+                if (isCyclicUtil(i, -1,visited)) {
+                    return true; // Cycle detected
+                }
+            }
+
+            return false; // No cycle detected
         }
 
         // Print Graph
