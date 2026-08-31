@@ -29,40 +29,18 @@ public class Detect_A_Cycle {
         }
 
         // Function to detect a cycle in the graph using DFS
-        public boolean isCyclicUtil(int v, boolean[] visited, boolean[] recStack) {
-            if (recStack[v]) {
-                return true; // Cycle detected
-            }
-
-            if (visited[v]) {
-                return false; // Already visited
-            }
-
+        public boolean isCyclicUtil(int v, int par,boolean[] visited) {
             visited[v] = true;
-            recStack[v] = true;
 
             for (int neighbor : adj[v]) {
-                if (isCyclicUtil(neighbor, visited, recStack)) {
-                    return true;
+                if (!visited[neighbor]) {
+                    if (isCyclicUtil(v, par, visited)) {
+                        return true;
+                    }
                 }
             }
 
-            recStack[v] = false; // Remove the vertex from recursion stack
             return false;
-        }
-
-        // Function to check if the graph contains a cycle
-        public boolean isCyclic() {
-            boolean[] visited = new boolean[V];
-            boolean[] recStack = new boolean[V];
-
-            for (int i = 0; i < V; i++) {
-                if (isCyclicUtil(i, visited, recStack)) {
-                    return true; // Cycle detected
-                }
-            }
-
-            return false; // No cycle detected
         }
 
         // Print Graph
