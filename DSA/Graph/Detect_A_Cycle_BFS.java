@@ -1,4 +1,4 @@
-// Detect a cycle in a directed graph using DFS Algorithm Implement in a Java
+// Detect a cycle in a directed graph using BFS Algorithm Implement in a Java
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -40,6 +40,15 @@ public class Detect_A_Cycle_BFS {
 
             while(queue.size() > 0) {
                 int u=queue.poll();
+
+                for(int neigbor : adj[u]) {
+                    if(!visited[neigbor]) {
+                        visited[neigbor] = true;
+                        queue.add(neigbor);
+                    } else {
+                        return true; // Cycle detected
+                    }
+                }
             }
             return false;
         }
@@ -67,5 +76,11 @@ public class Detect_A_Cycle_BFS {
 
         System.out.println("Graph representation (Adjacency List):");
         graph.printGraph();
+
+        if(graph.bfsCyclicUtil()) {
+            System.out.println("Cycle detected in the graph.");
+        } else {
+            System.out.println("No cycle detected in the graph.");
+        }
     }
 }
