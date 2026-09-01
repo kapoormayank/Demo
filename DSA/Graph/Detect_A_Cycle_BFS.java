@@ -78,9 +78,9 @@ public class Detect_A_Cycle_BFS {
         graph.printGraph();
 
         if(graph.bfsCyclicUtil()) {
-            System.out.println("Cycle detected in the graph.");
+            System.out.println("\nCycle detected in the graph.");
         } else {
-            System.out.println("No cycle detected in the graph.");
+            System.out.println("\nNo cycle detected in the graph.");
         }
     }
 }
