@@ -13,8 +13,8 @@ public class Detect_A_Cycle_BFS {
         public int V; // Number of vertices in the graph
         public ArrayList<Integer>[] adj; // Adjacency list representation of the graph
 
-        // Parameterized Constructor
         @SuppressWarnings("unchecked")
+        // Parameterized Constructor
         public Graph(int V) {
             this.V = V;
             adj = new ArrayList[V];
