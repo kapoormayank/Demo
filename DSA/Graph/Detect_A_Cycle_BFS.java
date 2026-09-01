@@ -31,6 +31,7 @@ public class Detect_A_Cycle_BFS {
         }
 
         // Function to detect a cycle in the graph using BFS
+        @SuppressWarnings("SizeReplaceableByIsEmpty")
         boolean bfsCyclicUtil() {
             Queue<Integer> queue = new LinkedList<>();
             boolean[] visited = new boolean[V];
@@ -39,13 +40,16 @@ public class Detect_A_Cycle_BFS {
             queue.add(0);
 
             while(queue.size() > 0) {
-                int u=queue.poll();
+                int u = queue.poll();
 
                 for(int neigbor : adj[u]) {
+                    
                     if(!visited[neigbor]) {
                         visited[neigbor] = true;
                         queue.add(neigbor);
-                    } else {
+                    } 
+                    
+                    else {
                         return true; // Cycle detected
                     }
                 }
@@ -67,6 +71,7 @@ public class Detect_A_Cycle_BFS {
 
     // Main function
     public static void main(String[] args) {
+        // Create a graph with 5 vertices
         Graph graph = new Graph(5);
 
         graph.addEdge(0,1);
