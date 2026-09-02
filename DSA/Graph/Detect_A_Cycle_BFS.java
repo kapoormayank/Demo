@@ -9,7 +9,7 @@ public class Detect_A_Cycle_BFS {
     // Graph Class
     public static class Graph {
         
-        // Public Access Specifier And Data Members
+        // Data Members And Public Access Specifier
         public int V; // Number of vertices in the graph
         public ArrayList<Integer>[] adj; // Adjacency list representation of the graph
 
