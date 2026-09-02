@@ -30,8 +30,8 @@ public class Detect_A_Cycle_BFS {
             adj[v].add(u);
         }
 
-        // Function to detect a cycle in the graph using BFS
         @SuppressWarnings("SizeReplaceableByIsEmpty")
+        // Function to detect a cycle in the graph using BFS
         boolean bfsCyclicUtil() {
             Queue<Integer> queue = new LinkedList<>();
             boolean[] visited = new boolean[V];
