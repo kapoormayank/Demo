@@ -54,11 +54,13 @@ public class Detect_A_Cycle_BFS {
                     }
                 }
             }
+
             return false;
         }
 
         // Print Adjanency Graph
         public void printGraph() {
+
             for(int i=0; i<V; i++) {
                 System.out.print("Vertex: "+i+": ");
                 for(int neighbor : adj[i]) {
@@ -66,6 +68,7 @@ public class Detect_A_Cycle_BFS {
                 }
                 System.err.print("\n");
             }
+            
         }
     }
 
