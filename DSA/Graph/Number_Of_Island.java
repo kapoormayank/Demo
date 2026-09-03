@@ -28,6 +28,23 @@ public class Number_Of_Island {
             adj[v].add(u);
         }
 
+        // Island Count Function
+        public int countIslands(int[][] grid) {
+            int count = 0;
+            boolean[][] visited = new boolean[grid.length][grid[0].length];
+
+            for(int i=0; i<grid.length; i++) {
+                for(int j=0; j<grid[0].length; j++) {
+                    if(grid[i][j] == 1 && !visited[i][j]) {
+                        bfs(grid, visited, i, j);
+                        count++;
+                    }
+                }
+            }
+
+            return count;
+        }
+
         // Print Adjanency Graph
         public void printGraph() {
 
