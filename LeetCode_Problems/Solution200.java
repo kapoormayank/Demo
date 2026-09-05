@@ -1,11 +1,11 @@
-
+// LeetCode Problem 200: Number of Islands
 public class Solution200 {
     // Graph Class
     public static class Graph {
 
         // Island Count Function
         public int countIslands(int[][] grid) {
-            
+
             int count = 0;
             boolean[][] visited = new boolean[grid.length][grid[0].length];
 
